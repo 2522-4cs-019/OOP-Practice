@@ -113,10 +113,6 @@ public:
 };
 
 int main(){
-    // Shape s;
-    // Compiler error: cannot declare variable 's' to be of abstract type 'Shape'
-    // Explanation: Shape contains pure virtual functions (= 0), making it an abstract class,
-    // so you cannot create an object of Shape directly.
 
     Shape* shapes[3] ={
         new Circle(3),

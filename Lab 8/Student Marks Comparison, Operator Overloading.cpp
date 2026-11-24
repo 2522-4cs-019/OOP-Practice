@@ -34,4 +34,5 @@ int main(){
 	else{
 		cout << "Student 2 has obtained highest marks";
 	}
+	return 0;
 }
